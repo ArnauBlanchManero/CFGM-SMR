@@ -1,0 +1,73 @@
+loadkeys es
+fdisk  /dev/sda
+n
+p
+1
+
++200G
+n
+p
+2
+
+-16G
+n
+p
+3
+
+
+t
+3
+82
+w
+mkfs.ext4 /dev/sda1
+mkswap /dev/sda3
+mount /dev/sda1 /mnt
+mkdir /mnt/home
+mount /dev/sda2 /mnt/home
+swapon /dev/sda3
+pacstrap /mnt base linux linux-firmware
+genfstab -U /mnt >>/mnt/etc/fstab
+arch-chroot /mnt
+ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+hwclock --systohc
+pacman -S nano
+Y
+nano /etc/locale.gen
+(buscas el primero que empiece por es_ES y borras el #)
+(Ctrl + x)
+Y
+
+echo 'LANG=es_ES.UTF-8' >/etc/locale.conf
+echo archarnau >/etc/hostname
+passwd
+(pones la contraseña que quieras) 1234
+(repites la misma contraseña) 1234
+pacman -Syyu
+pacman -Syu networkmanager
+pacman -Syu gnome
+pacman -S grub
+Y
+grub-install --target=i386-pc /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+exit
+umount /mnt/home 
+umount /mnt
+poweroff (reboot)
+(quitas el disco)
+(lo vuelves a abrir)
+root
+(la contraseña) 1234
+useradd -m -g users Arnau
+passwd Arnau
+(pones la contraseña que quieras) abcd
+(repites la misma contraseña) abcd
+su
+systemctl start NetworkManager.service
+systemctl enable NetworkManager.service
+pacman -S xf86-video-vesa
+pacman-S xorg-server xorg-xinit mesa mesa-demos
+pacman -S gnome gnome-extra
+pacman -S gdm
+systemctl enable gdm.service
+reboot
+
