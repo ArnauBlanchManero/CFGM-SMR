@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			Formulario
+		</title>
+		<link rel="stylesheet" href="formulario.css">
+	</head>
+	<body>
+		<h1>Formulario definitvo</h1>
+		<form action="form.php" method="post">
+			<h2>Formulario de Ejemplo</h2>
+			<table>
+			<tr>
+			<td>
+				<fieldset>
+					<legend id="azul">Datos Personales</legend>
+						<label for="name">Nombre:</label><br>
+						<input name="name" id="nombre" type="text" placeholder="Ingresa tu nombre"><br>
+						<label for="Apellido">Apellido:</label><br>
+						<input name="Apellido" id="Apellido" type="text" placeholder="Ingresa tu Apellido"><br>
+						<label for="Correo">Correo:</label><br>
+						<input name="Correo" id="Correo" type="text" placeholder="Ingresa tu Correo"><br>
+				</fieldset>
+			</td>
+			<td>
+				<fieldset>
+					<legend id="negro">Más Datos</legend>
+						<label for="telefono">Teléfono:</label><br>
+						<input name="telefono" id="telefono" type="number" placeholder="Ingresa tu número de teléfono"><br>
+						<label for="fecha_nac">Fecha de Nacimiento</legend><br>
+						<input name="fecha_nac" id="fecha_nac" type="date"><br>
+						<label for="contraseña">Contraseña:</label><br>
+						<input name="contraseña" id="contraseña" type="password" placeholder="Ingresa tu contraseña">
+				</fieldset>
+			</td>
+			</tr>
+			</table>
+			<fieldset>
+				<legend id="naranja">Tus Hobbies</legend>
+					<label for="hobbies" id="hobbies">Elige tu hobby:</label><br>
+					<select name="hobbies">
+						<option value="l">Leer</option>
+						<option value="c">Cantar</option>
+						<option value="m">Música</option>
+						<option value="d">Deporte</option>
+					</select><br>
+					<label for="comentarios">Comentarios:</label><br>
+					<textarea name="comentarios" id="comentarios" placeholder="Añade comentarios"></textarea>
+			</fieldset>
+			<fieldset>
+				<legend id="verde">Preferencia de Comunicación</legend>
+				<p>Idioma Preferido:</p>
+				<input name="idioma" id="castellano" type="checkbox"><label for="idioma">Castellano</label><br>
+				<input name="idioma" id="catalán" type="checkbox"><label for="idioma">Catalán</label><br>
+				<input name="idioma" id="inglés" type="checkbox"><label for="idioma">Inglés</label>
+				<p>Recibir notificaciones</p>
+				<input name="notificaciones" id="si" type="radio"><label for="notificaciones">Si</label><br>
+				<input name="notificaciones" id="no" type="radio"><label for="notificaciones">No</label><br>
+			</fieldset>
+			<input type="submit">
+			<input type="reset">
+		</form>
+	</body>
+</html>
