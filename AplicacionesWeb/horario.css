@@ -1,0 +1,43 @@
+.centrado {
+	Text-align: center;
+}
+
+p {
+	Text-align: center;
+}
+
+.dia {
+	font-size: 21px;
+}
+
+.lab {
+	Text-align: left;
+}
+
+.asignatura {	
+	font-size: 15px;
+}
+
+.profe {
+	Text-align: right;
+	font-size: 10px;
+}
+
+.seguridad {
+	background-color: #88dc65;
+}
+.redes {
+	background-color: #42A5F5;
+}
+.aplicaciones {
+	background-color: #FF2400;
+}
+.sistemas {
+	background-color: #9E9E9E;
+}
+.ingles {
+	background-color: #AFCDEA;
+}
+.empresa {
+	background-color: #F8BBD0;
+}
