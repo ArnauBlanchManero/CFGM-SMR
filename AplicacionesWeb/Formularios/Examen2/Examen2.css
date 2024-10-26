@@ -1,0 +1,112 @@
+/* Examen hecho por Arnau Blanch */
+* {
+	font-family:arial;
+}
+body {
+	background-color:#2f2fb5;
+}
+form {
+	background-color:#9b3f1b;
+	margin: 0 auto;
+	max-width: 900px;
+	padding:20px;
+	border-radius: 40px;
+	border: 2px solid black;
+}
+h1 {
+	color:#ff1e1e;
+	text-align:center;
+}
+
+textarea {
+	border: 15px solid #2cdd2c;
+	border-radius: 25px;
+	font-size: 12px;
+	width:303px;
+	height: 66px;
+}
+fieldset {
+	margin-bottom: 20px;
+}
+label {
+	font-size: 13px;
+}
+input, select {
+	width:333px;
+	margin: 5px;
+	padding: 7px;
+	border-color: white; 
+}
+input[type=checkbox], [type=radio] {
+	width:15px;
+}
+optgroup {
+	font-style: normal;
+}
+#azul {
+	background-color: blue;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+}
+#negro {
+	background-color: black;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+}
+#naranja {
+	background-color: #ff501a;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+}
+#verde {
+	background-color: #259108;
+	padding: 10px;
+	color: white;
+	width: 130px;
+	border-radius: 5px;
+}
+#juegos {
+	margin-left: 100px;
+}
+.flex {
+	display:flex;
+}
+.arriba {
+	background-color:#dfdfdf;
+	padding: 10px 75px 20px 10px;
+	margin-right: 10px;
+}
+.medio {
+	background-color:#bfbfbf;
+	padding: 20px;
+}
+.abajo {
+	background-color:#a4a4a4;
+	padding: 20px;
+	width: 350px;
+}
+.bold {
+	margin-left: 100px;
+	font-weight: bold;
+}
+#enviar {
+	width: 90px;
+	padding: 7px;
+	font-size: 22px;
+	background-color: #9b7400;
+	border-color:#9b7400;
+	color: white;
+	border-radius: 6px;
+}
+#reiniciar {
+	width: 120px;
+	padding: 7px;
+	font-size: 22px;
+	background-color: #d20281;
+	border-color:#d20281;
+	color: white;
+	margin-left: 100px;
+}

@@ -1,0 +1,102 @@
+* {
+	font-family: arial;
+}
+h2 {
+	color: red;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 30px;
+}
+form {
+	margin: 0 auto;
+	max-width: 700px;
+	background-color: purple;
+	border-radius: 40px;
+}
+fieldset {
+	margin: 0px 50px 20px 50px;
+}
+.izq, .der {
+	background-color: #b3b3b3;
+	width: 250px;
+	padding: 30px;
+}
+.izq {
+	margin: 0px 1px 20px 50px;
+	width: 250px;
+	padding: 30px;
+}
+.der {
+	margin: 0px 50px 20px 1px;
+}
+.medio {
+	background-color: grey;
+	padding: 30px;
+}
+.fuerte {
+	background-color: #575757;
+	padding: 30px;
+}
+div {
+	display: flex;
+}
+#azul {
+	color:white;
+	background-color: blue;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+#negro {
+	color:white;
+	background-color: black;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+#naranja {
+	color:white;
+	background-color: orange;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+#verde {
+	color:white;
+	background-color: green;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+input {
+	width: 220px;
+	padding: 7px;
+	border-radius: 5px;
+	margin: 2px 0px 3px 0px;
+}
+input[type=radio] {
+	width: 10px;
+}
+select {
+	width: 220px;
+	padding: 5px;
+}
+textarea {
+	width: 320px;
+	height: 80px;
+}
+input[type=submit] {
+	background-color: yellow;
+	padding: 8px;
+	margin: 5px 0px 15px 50px;
+	color: white;
+	border-radius: 5px;
+	width: 110px;
+}
+input[type=reset] {
+	background-color: pink;
+	padding: 8px;
+	margin: 5px 0px 5px 60px;
+	color: white;
+	border-radius: 5px;
+	width: 110px;
+}
+label {
+	font-size: 14px;
+}

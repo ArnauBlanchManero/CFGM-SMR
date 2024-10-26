@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Ejemplo formulario
+		</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="account.css"
+	</head>
+	<body>
+		<h1>Create Your Account</h1>
+		<center>
+		<button class="button"><img src="f.png"> CONTINUE WITH FACEBOOK</button>
+		</center>
+		<p class="pequeño">We'll never post without your permission.</p>
+		<p class="or">————————OR————————</p>
+		<form action="cuenta.php" method="post">
+			<label for="email">EMAIL</label> <br>
+			<input type="text" name="email" id="email" size="34">
+			<p></p>
+			<label for="pass">PASSWORD</label> <br>
+			<input type="password" name="pass" id="pass" size="34">
+			<p></p>
+			<label for="name">NAME</label> <br>
+			<input type="text" name="name" id="name" size="34">
+			<p></p>
+			<p class="titulo">BIRTH DATE</p>
+			<select name="month">
+				<option value="Month" hidden>Month</option>
+				<option value="Enero">Enero</option>
+				<option value="Febrero">Febrero</option>
+				<option value="Marzo">Marzo</option>
+				<option value="Abril">Abril</option>
+				<option value="Mayo">Mayo</option>
+				<option value="Junio">Junio</option>
+				<option value="Julio">Julio</option>
+				<option value="Agosto">Agosto</option>
+				<option value="Septiembre">Septiembre</option>
+				<option value="Otubre">Octubre</option>
+				<option value="Noviembre">Noviembre</option>
+				<option value="Diciembre">Diciembre</option>
+			</select>
+			<select name="day">
+				<option value="Day" hidden>Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+			<select name="year">
+				<option value="Year" hidden>Year</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+				<option value="2003">2003</option>
+				<option value="2004">2004</option>
+				<option value="2005">2005</option>
+				<option value="2006">2006</option>
+				<option value="2007">2007</option>
+				<option value="2008">2008</option>
+				<option value="2009">2009</option>
+				<option value="2010">2010</option>
+				<option value="2011">2011</option>
+				<option value="2012">2012</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+			</select>
+			<p class="titulo">GENDER</p>
+			<select name="gender" id="gender">
+				<option value="Select" hidden>Select</option>
+				<option value="hombre">hombre</option>
+				<option value="mujer">mujer</option>
+			</select>
+		<center>
+		<input type="submit" class="enviar" value="Enviar" id="enviar">
+		</center>
+		</form>
+	</body>
+</html>

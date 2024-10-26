@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>
+		Formulario Verde
+	</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="form_verde.css">
+</head>
+<body>
+	<form method="post">
+		<h1>Step 1: Your details</h1>
+		<div class="cuadradito">
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" placeholder="First and last name">
+		</div>
+		<div class="cuadradito">
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email" placeholder="example@domain.com">
+		</div>
+		<div class="cuadradito">
+			<label for="phone">Phone</label>
+			<input type="text" name="phone" id="phone" placeholder="Ej. +447500000000">
+		</div>
+		<h1>Step 2: Delivery address</h1>
+		<div class="cuadrado">
+			<label for="addres">Address</label>
+			<textarea name="address"></textarea>
+		</div>
+		<div class="cuadradito">
+			<label for="post">Post code</label>
+			<input name="post" id="post" type="text">
+		</div>
+		<div class="cuadradito">
+			<label for="country">Country</label>
+			<input name="country" id="country" type="text">
+		</div>
+		<h1>Step 3: Card details</h1>
+		<div class="cuadradito">
+			<p>Card type</p>
+			<input type="radio" name="type" id="visa" value="visa">
+			<label for="visa"><img src="visa.avif"> VISA</label>
+			<input type="radio" name="type" id="amex" value="amex">
+			<label for="amex"><img src="amex.png"> AmEx</label>
+			<input type="radio" name="type" id="master" value="master">
+			<label for="master"><img src="master.svg"> Mastercard</label>
+		</div>
+		<div class="cuadradito">
+			<label for="number">Card number</label>
+			<input name="number" id="number" type="number">
+		</div>
+		<div class="cuadradito">
+			<label for="code">Security code</label>
+			<input type="text" name="code" id="code" >
+		</div>
+		<div class="cuadradito">
+			<label for="card">Name on card</label>
+			<input name="card" id="card" type="text" placeholder="Exact name as on the card">
+		</div>
+		<center>
+		<input type="submit" value="BUY IT!" id="buy">
+		</center>
+	</form>
+</body>
+</html>

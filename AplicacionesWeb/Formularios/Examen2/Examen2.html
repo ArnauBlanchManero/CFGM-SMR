@@ -1,0 +1,82 @@
+<!-- Examen hecho por Arnau Blanch -->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Arnau Blanch Manero</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Examen2.css">
+	</head>
+	<body>
+		<form action="doc.php" method="post">
+			<h1>Formulario Examen</h1>
+			<div class="flex">
+				<fieldset class="arriba">
+					<legend id="azul">Datos Personales</legend>
+					<label for="nombre">Nombre:</label><br>
+					<input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required><br>
+					<label for="apellido">Apellido:</label><br>
+					<input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required><br>
+					<label for="email">Correo Electrónico:</label><br>
+				<input type="email" name="email" id="email" value="@">
+				</fieldset>
+				<fieldset class="arriba">
+					<legend id="negro">Más Datos Personales</legend>
+					<label for="teléfono">Teléfono:</label><br>
+					<input type="number" name="teléfono" id="teléfono" placeholder="Ingresa tu número de teléfono" required><br>
+					<label for="fecha">Fecha de Nacimiento:</label><br>
+					<input type="date" name="fecha" id="fecha" value="10/11/2023" required><br>
+					<label for="contraseña">Contraseña:</label><br>
+					<input type="password" name="contraseña" id="contraseña" placeholder="Ingresa tu contraseña" required>
+				</fieldset>
+			</div>
+			<fieldset class="medio">
+				<legend id="naranja">Tus Hobbies</legend>
+				<div class="flex">
+					<div>
+					<label>Elige tu hobby:</label><br>
+					<select name="hobby">
+						<optgroup label="Hobbies">
+							<option name="lee" id="lee">Lectura</option>
+							<option name="deporte" id="deporte">Deporte</option>
+							<option name="música" id="música">Música</option>
+							<option name="arte" id="arte">Arte</option>
+							<option name="viaje" id="viaje">Viajes</option>
+						<optgroup>
+					</select>
+					</div>
+					<div>
+					<label class="bold">Otras aficiones:</label><br>
+					<input type="checkbox" name="juegos" id="juegos"><label for="juegos">Video juegos</label>
+					<input type="checkbox" name="apuesta" id="apuesta"><label for="apuesta">Apuestas</label>
+					<input type="checkbox" name="bar" id="bar"><label for="bar">Bares</label>
+					<input type="checkbox" name="mejorno" id="mejorno" checked><label for="mejorno" checked>Mejor no te lo digo</label>
+					</div>
+				</div>
+				<label for="comentario">Comentarios:</label><br>
+				<textarea name="comentario" id="comentario" placeholder="Añade un comentaio"></textarea>
+			</fieldset>
+			<fieldset class="abajo">
+				<legend id="verde">Preferencias de Comunicación</legend>
+				<label>Idioma Preferido:</label><br>
+					<select name="idioma">
+						<optgroup label="Idiomas principales">
+							<option name="español" id="español">Español</option>
+							<option name="inglés" id="inglés">Inglés</option>
+							<option name="francés" id="francés">Francés</option>
+						<optgroup>
+						<optgroup label="Otros Idiomas">
+							<option name="alemán" id="alemán">Alemán</option>
+							<option name="chino" id="chino">Chino</option>
+							<option name="otro" id="otro">Otro</option>
+						<optgroup>
+					</select><br>
+					<label>Recibir notificaciones:</label><br>
+					<input type="radio" name="notificaciones" id="sí"><label for="sí">Sí</label>
+					<input type="radio" name="notificaciones" id="no"><label for="no">No</label>
+					<input type="radio" name="notificaciones" id="ns" checked><label for="ns">NS/NC</label>
+			</fieldset>
+			<input type="submit" id="enviar" value="Enviar">
+			<input type="reset" id="reiniciar" value="Reiniciar">
+		</form>
+	</body>
+</html>

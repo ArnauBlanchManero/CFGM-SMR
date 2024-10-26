@@ -1,0 +1,28 @@
+* {
+	font: Arial, Helvetica, sans-serif;
+}
+p {
+	color: #555; /*Esto es el negro de todo el párrafo*/
+}
+#primero p {
+	color: #336699;/*Es el azul de la primera línea*/
+}
+a {
+	color: #CC3300; /*Es el rojo para los enlaces*/
+}
+#primero span {
+	background: #FFFFCC; /*Con fondo amarillo dentro del div primero*/
+	padding: .1em;
+}
+span.especial {
+	background: #FFCC99; /*Fondo naranja creando una class en el span*/
+	border: 1px solid #FF9900;
+	padding: .1em;
+}
+
+
+
+
+.normal span {
+	font-weight: bold; /*Dentro de un div normal*/
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Hola Mundo
+		</title>
+		<script type="text/javascript">
+			function message(){
+				alert("Este cuadto es llamado cuando carga la página");
+			}
+		</script>
+		<meta charset="UTF-8">
+	</head>
+	<body onload="message()">
+		<script type="text/javascript">
+			document.write("Hola Mundo");
+			var miFecha=new Date();
+			document.write ("Hoy es "+miFecha.getDate()+"/ "+(miFecha.getMonth()+1)+"/ "+(miFecha.getYear()+1900));
+		</script>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+/*Examen hecho por Arnau Blanch Manero*/
+* {
+	font-family: Verdana;
+}
+h1 {
+	text-align: center;
+	color: magenta;
+	font-weight: bold;
+}
+h2 {
+	font-size: 16px;
+	font-style: italic;
+	color: grey;
+	margin-left: 10px;
+}
+h3 {
+	margin-left: 10px;
+}
+h4 {
+	color: green;
+	margin: 90px;
+	font-size: 20px;
+}
+ul {
+	margin-right: 1220px;
+	margin-left: 10px;
+}
+ol {
+	margin-right: 800px;
+	text-align: justify;
+	margin-left: 10px;
+}
+IMG {
+	weight: 283px;
+	height: 65px;
+	margin-left: 10px;
+}
+iframe {
+	margin-left: 80px;
+	weight: 360px;
+	height: 200px;
+}
+
+tr {
+	border-color: black;
+}
+span.first {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	background-color: orange;
+}
+span.dos {
+	font-style: italic;
+	font-weight: bold;
+	background-color: orange;
+}
+tr.first {
+	color: red;
+	background-color: pink;
+	font-weight: bold;
+}
+td.dos {
+	background-color: yellow;
+	font-style: italic;
+	font-weight: bold;
+}
+.table {
+	text-align: center;
+	margin-left: 20px;
+}
+.Tarta {
+	margin-left: 460px;
+	weight: 300px;
+	height: 210px;
+}
+.dosa {
+	weight: 220px;
+	height: 40px;
+	margin-left: 10px;
+}
+.gris {
+	background-color: grey;
+	text-align: right;
+}
+.azul {
+	background-color: blue;
+}
+.doc {
+	margin-left: 50px;
+	margin-right: 50px;
+	border-collapse: collapse;
+}
+#little {
+	text-align: right;
+	font-size: 8px;
+}

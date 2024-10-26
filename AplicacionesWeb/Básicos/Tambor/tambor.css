@@ -1,0 +1,20 @@
+h1 {
+	font-size: 45;
+}
+h2 {
+	background-color: blue;
+	font-weight: 700;
+}
+table {
+	padding: 20;
+	margin: 20px;
+}
+.borde {
+	border-collapse: collapse;
+	border-color: black;
+	margin: 10;
+}
+.borde td {
+	border: 2px solid;
+	padding: 8px;
+}

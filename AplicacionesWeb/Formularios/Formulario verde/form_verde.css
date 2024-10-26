@@ -1,0 +1,100 @@
+form {
+	background-color: #67a42a;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 25px;
+	border-radius: 4px;
+}
+h1 {
+	font-weight: bold;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 20px;
+}
+.cuadradito {
+	background-color: #8dc130;
+	margin-top: 1px;
+	padding: 10px;
+	border: 1px solid;
+	border-color: #a6ff6a;
+	border-radius: 4px;
+}
+.cuadrado {
+	display: flex;
+	background-color: #8dc130;
+	margin-top: 1px;
+	padding: 10px;
+	border: 1px solid;
+	border-color: #a6ff6a;
+	border-radius: 4px;
+}
+#name {
+	font-style: italic;
+	width: 270px;
+	height: 20px;
+	margin-left: 75px;
+}
+#email {
+	font-style: italic;
+	width: 270px;
+	height: 20px;
+	margin-left: 76px;
+}
+#phone {
+	font-style: italic;
+	width: 270px;
+	height: 20px;
+	margin-left: 75px;
+}
+td {
+	padding: 0px;
+}
+textarea {
+	width: 270;
+	height: 80px;
+	margin-left: 63px;
+}
+#post {
+	width: 270px;
+	height: 20px;
+	margin-left: 53px;
+}
+#country {
+	width: 270px;
+	height: 20px;
+	margin-left: 61px;
+}
+p {
+	margin: 5px 0px 9px 5px;
+}
+img  {
+	width: 20px;
+	height: 10px;
+}
+input[type=radio] {
+	margin: 0px 5px 0px 20px;
+}
+#number {
+	width: 270px;
+	height: 20px;
+	margin-left: 31px;
+}
+#code {
+	width: 270px;
+	height: 20px;
+	margin-left: 27px;
+}
+#card {
+	font-style: italic;
+	width: 270px;
+	height: 20px;
+	margin-left: 25px;
+}
+#buy {
+	background-color: black;
+	color: white;
+	width: 90px;
+	height: 29px;
+	border-radius: 40px;
+	margin-top: 5px;
+}
